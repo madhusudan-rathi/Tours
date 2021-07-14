@@ -13,7 +13,7 @@ const Tour = ({id, name, image, info, price, removeTour}) => {
                     <div className="tour-info">
                         <h4>{name}</h4>
                         <h4 className="tour-price">
-                            {price}
+                            $ {price}
                         </h4>
                     </div>
                     <p>
